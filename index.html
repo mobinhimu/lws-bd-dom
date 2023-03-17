@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LWS BD DOM Project !</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <div class="logo">
+            <img src="./images/Web Logo.jpg" alt="My Images , Mobin " />
+          </div>
+          <div class="app-name">
+            <h1>To-do app</h1>
+          </div>
+
+          <!-- form -->
+          <form id="task">
+            <label for="task"
+              >Add New Task
+              <input type="text" autofocus />
+            </label>
+            <input type="submit" value="Add Task" />
+          </form>
+
+          <!-- task list -->
+          <div class="task-list">
+            <!-- incomplete -->
+            <div class="left-task">
+              <h1>Incomplete Task</h1>
+              <ul></ul>
+            </div>
+            <div class="right-task">
+              <!-- complete -->
+              <h1>Complete Task</h1>
+              <ul></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
